@@ -1,0 +1,47 @@
+{
+  "name": "stryker-vue",
+  "version": "1.0.0",
+  "description": "Example of Stryker mutation testing on Vue application",
+  "main": "index.html",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config webpack.config.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "mutation": "stryker run",
+    "watch": "webpack -w -d"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "child_process": "^1.0.2",
+    "vue": "^2.6.7",
+    "vue-router": "^3.0.2"
+  },
+  "devDependencies": {
+    "@stryker-mutator/core": "^1.0.3",
+    "@stryker-mutator/html-reporter": "^1.0.3",
+    "@stryker-mutator/javascript-mutator": "^1.0.3",
+    "@stryker-mutator/jest-runner": "^1.1.0",
+    "@stryker-mutator/vue-mutator": "^1.0.3",
+    "@stryker-mutator/webpack-transpiler": "^1.0.3",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-jest": "^24.5.0",
+    "css-loader": "^2.1.0",
+    "expect": "^24.1.0",
+    "jest": "^24.5.0",
+    "jsdom": "^13.2.0",
+    "jsdom-global": "^3.0.2",
+    "nyc": "^13.3.0",
+    "vue-jest": "^3.0.4",
+    "vue-loader": "^15.6.4",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.7",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.0"
+  }
+}
