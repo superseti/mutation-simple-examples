@@ -41,7 +41,7 @@ describe('calculate', () => {
         var expectedResult = 0;
         expect(result).toBe(expectedResult);
     });
-    it('should return 0 with false and true', () => {
+    xit('should return 0 with false and true', () => {
 
         var paramA = false;
         var paramB = true;
