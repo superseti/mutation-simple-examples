@@ -3,7 +3,7 @@
 
   
 
-This is an example of Stryker in Vue application test project using jest, based on the [robobar example of stryker](https://github.com/stryker-mutator/robobar-example).
+This is an example of Stryker in Vue application test project using jest.
 
   
 
