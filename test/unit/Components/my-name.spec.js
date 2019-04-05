@@ -50,3 +50,22 @@ describe('calculate', () => {
         expect(result).toBe(expectedResult);
     });
 });
+
+describe('divide', () => {
+    it('should return 1 with 1 and 1', () => {
+
+        var paramA = 1;
+        var paramB = 1;
+        var result = sut.divide(paramA, paramB);
+        var expectedResult = 1;
+        expect(result).toBe(expectedResult);
+    });
+    xit('should return 1.5 with 3 and 2', () => {
+
+        var paramA = 3;
+        var paramB = 2;
+        var result = sut.divide(paramA, paramB);
+        var expectedResult = 1.5;
+        expect(result).toBe(expectedResult);
+    });
+});

@@ -18,6 +18,9 @@
                     return 1;
                 }
                 return 0;
+            },
+            divide: function(a,b){
+                return a/b;
             }
         }
     }
